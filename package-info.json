@@ -1,0 +1,36 @@
+{
+  "name": "school-payment-frontend",
+  "version": "1.0.0",
+  "description": "A modern React.js frontend for School Payments and Dashboard application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "deploy:netlify": "npm run build && netlify deploy --prod --dir=dist",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "framer-motion",
+    "school-payments",
+    "dashboard",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/school-payment-frontend.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+
+
+
